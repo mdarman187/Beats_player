@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:background="@drawable/bg_gradient">
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:background="@drawable/beats_logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="100dp"
+            android:id="@+id/aboutUsPhoto"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutUsText"
+            android:textColor="#bdbdbd"
+            android:text="Developed by MD ARMAN"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/aboutUsPhoto"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/aboutUsText"
+            android:id="@+id/appVersion"
+            android:text="App Version : 1.0"
+            android:textColor="#bdbdbd"
+            android:layout_marginTop="5dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/copyright"
+            android:layout_below="@+id/appVersion"
+            android:textColor="#bdbdbd"
+            android:text="© arman.beats"
+            android:layout_marginTop="5dp"/>
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:id="@+id/content_main">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/visibleLayout">
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/contentMain">
+        </androidx.recyclerview.widget.RecyclerView>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/hiddenBarMainScreen"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorPrimary"
+                android:visibility="invisible">
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/playPauseButton"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/pause_icon"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="31dp"/>
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/defaultMusic"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/now_playing_bar_eq_image"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_centerVertical="true"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Now Playing"
+                    android:textColor="#bdbdbd"
+                    android:id="@+id/nowPlaying"
+                    android:layout_toRightOf="@+id/defaultMusic"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="15dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/songTitleMainScreen"
+                    android:layout_below="@+id/nowPlaying"
+                    android:layout_alignStart="@+id/nowPlaying"
+                    android:layout_alignLeft="@+id/nowPlaying"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:maxWidth="160dp"
+                    android:singleLine="true"
+                    android:layout_marginTop="5dp"
+                    android:text=". . ."
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/noSongs"
+            android:visibility="invisible"
+            android:background="#ffffff">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO SONGS FOUND IN DEVICE"
+                android:textColor="#000000"
+                android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>
