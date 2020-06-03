@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/aboutUsText"
-            android:textColor="#bdbdbd"
+            android:textColor="@android:color/black"
             android:text="Developed by MD ARMAN"
             android:layout_centerInParent="true"
             android:layout_marginRight="50dp"
@@ -36,7 +36,7 @@
             android:layout_below="@id/aboutUsText"
             android:id="@+id/appVersion"
             android:text="App Version : 1.0"
-            android:textColor="#bdbdbd"
+            android:textColor="@android:color/black"
             android:layout_marginTop="5dp"/>
     <TextView
             android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
             android:layout_centerInParent="true"
             android:id="@+id/copyright"
             android:layout_below="@+id/appVersion"
-            android:textColor="#bdbdbd"
+            android:textColor="@android:color/black"
             android:text="© arman.beats"
             android:layout_marginTop="5dp"/>
 </RelativeLayout>

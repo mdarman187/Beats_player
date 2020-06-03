@@ -86,13 +86,13 @@ class MainScreenFragment : Fragment() {
         bottomBarSetup()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         menu?.clear()
         inflater!!.inflate(R.menu.main,menu)
         return
     }
 
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val switcher= item?.itemId
         if (switcher==R.id.action_sort_ascending){
             val editor = myActivity?.getSharedPreferences("action_sort",Context.MODE_PRIVATE)?.edit()
@@ -118,12 +118,12 @@ class MainScreenFragment : Fragment() {
         return super.onOptionsItemSelected(item)
     }
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         myActivity=context as Activity
     }
 
-    override fun onAttach(activity: Activity?) {
+    override fun onAttach(activity: Activity) {
         super.onAttach(activity)
         myActivity=activity
     }

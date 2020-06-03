@@ -35,13 +35,13 @@ class SettingsFragment : Fragment() {
         setHasOptionsMenu(true)
     }
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
 
         myActivity= context as Activity
     }
 
-    override fun onAttach(activity: Activity?) {
+    override fun onAttach(activity: Activity) {
         super.onAttach(activity)
         myActivity=activity
     }
@@ -70,7 +70,7 @@ class SettingsFragment : Fragment() {
         })
     }
 
-    override fun onPrepareOptionsMenu(menu: Menu?) {
+    override fun onPrepareOptionsMenu(menu: Menu) {
         super.onPrepareOptionsMenu(menu)
         val item = menu?.findItem(R.id.action_sort)
         item?.isVisible =false

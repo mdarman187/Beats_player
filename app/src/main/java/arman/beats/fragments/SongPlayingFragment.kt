@@ -235,12 +235,12 @@ class SongPlayingFragment : Fragment() {
         Statified.audioVisualization =Statified. glView as AudioVisualization
     }
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         Statified.myActivity = context as Activity?
     }
 
-    override fun onAttach(activity: Activity?) {
+    override fun onAttach(activity: Activity) {
         super.onAttach(activity)
         Statified.myActivity = activity
     }
@@ -282,13 +282,13 @@ class SongPlayingFragment : Fragment() {
         bindShakeListener()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         menu?.clear()
         inflater?.inflate(R.menu.song_playing_menu,menu)
         super.onCreateOptionsMenu(menu, inflater)
     }
 
-    override fun onPrepareOptionsMenu(menu: Menu?) {
+    override fun onPrepareOptionsMenu(menu: Menu) {
         super.onPrepareOptionsMenu(menu)
         val item: MenuItem? = menu?.findItem(R.id.action_redirect)
         item?.isVisible= true
@@ -297,7 +297,7 @@ class SongPlayingFragment : Fragment() {
         item2?.isVisible= false
     }
 
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item?.itemId){
             R.id.action_redirect -> {
                 Statified.myActivity?.onBackPressed()

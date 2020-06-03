@@ -7,7 +7,6 @@
     <color name="second">#4e1741</color>
     <color name="third">#74204d</color>
     <color name="fourth">#9d2a58</color>
-    
     <array name="rainbow">
         <item> @color/first</item>
         <item> @color/second</item>
