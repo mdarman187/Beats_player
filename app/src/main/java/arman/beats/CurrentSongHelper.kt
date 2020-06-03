@@ -1,6 +1,7 @@
 package arman.beats
 
 class CurrentSongHelper {
+
     var songArtist:String?=null
     var songTitle:String?=null
     var songPath:String?=null

@@ -31,14 +31,14 @@ class FavoriteAdapter(_songDetails: ArrayList<Songs>, _context: Context)
     override fun onBindViewHolder(holder: FavContentViewHolder, position: Int) {
         val songObject=  songDetails?.get(position)
         if (songObject?.artist.equals("<unknown>", ignoreCase = true)) {
-            holder.trackArtist?.setText("unknown")
+            holder.trackArtist?.text = "unknown"
         } else {
-            holder.trackArtist?.setText(songObject?.artist)
+            holder.trackArtist?.text = songObject?.artist
         }
-        holder.trackTitle?.setText(songObject?.songTitle)
+        holder.trackTitle?.text = songObject?.songTitle
         holder.contentHolder?.setOnClickListener(View.OnClickListener {
             try {
-                if (mediaplayer?.isPlaying() as Boolean) {
+                if (mediaplayer?.isPlaying as Boolean) {
                     mediaplayer?.stop()
                 }
             } catch (e: Exception) {
@@ -65,7 +65,7 @@ class FavoriteAdapter(_songDetails: ArrayList<Songs>, _context: Context)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavContentViewHolder {
-        val itemView= LayoutInflater.from(parent?.context)
+        val itemView = LayoutInflater.from(parent.context)
             .inflate(R.layout.favorite_content_custom_row, parent, false)
         return FavContentViewHolder(itemView)
     }
@@ -88,6 +88,5 @@ class FavoriteAdapter(_songDetails: ArrayList<Songs>, _context: Context)
             trackArtist=view.findViewById<TextView>(R.id.trackArtist)
             contentHolder=view.findViewById<RelativeLayout>(R.id.contentRow)
         }
-
     }
 }

@@ -7,9 +7,9 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -17,7 +17,6 @@ import arman.beats.R
 import arman.beats.adapters.NavigationDrawerAdapter
 import arman.beats.fragments.MainScreenFragment
 import arman.beats.fragments.SongPlayingFragment
-import kotlin.Exception
 
 class MainActivity : AppCompatActivity(){
 
@@ -108,5 +107,4 @@ class MainActivity : AppCompatActivity(){
             e.printStackTrace()
         }
     }
-
 }

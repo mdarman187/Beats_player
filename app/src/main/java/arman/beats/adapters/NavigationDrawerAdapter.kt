@@ -30,17 +30,17 @@ class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages:IntArr
     }
 
     override fun onBindViewHolder(holder:NavViewHolder, position: Int) {
-        holder?.icon_Get?.setBackgroundResource(getImages?.get(position) as Int)
-        holder?.text_Get?.setText(contentList?.get(position))
-        holder?.contentHolder?.setOnClickListener({
-            if(position==0){
-                val mainScreenFragment= MainScreenFragment()
+        holder.icon_Get?.setBackgroundResource(getImages?.get(position) as Int)
+        holder.text_Get?.text = contentList?.get(position)
+        holder.contentHolder?.setOnClickListener({
+            if (position == 0) {
+                val mainScreenFragment = MainScreenFragment()
                 (mContext as MainActivity).supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.details_fragment, mainScreenFragment)
                     .commit()
-            }else if (position==1){
-                val favoriteFragment= FavoriteFragment()
+            } else if (position == 1) {
+                val favoriteFragment = FavoriteFragment()
                 (mContext as MainActivity).supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.details_fragment, favoriteFragment)
@@ -67,7 +67,7 @@ class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages:IntArr
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NavViewHolder {
-        var itemView = LayoutInflater.from(parent?.context)
+        var itemView = LayoutInflater.from(parent.context)
             .inflate(R.layout.row_custom_navigationdrawer, parent, false)
         val returnThis = NavViewHolder(itemView)
         return returnThis
@@ -84,10 +84,9 @@ class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages:IntArr
        var contentHolder: RelativeLayout? = null
 
        init {
-           icon_Get = itemView?.findViewById(R.id.icon_navdrawer)
-           text_Get = itemView?.findViewById(R.id.text_navdrawer)
-           contentHolder = itemView?.findViewById(R.id.navdrawer_item_content_holder)
+           icon_Get = itemView.findViewById(R.id.icon_navdrawer)
+           text_Get = itemView.findViewById(R.id.text_navdrawer)
+           contentHolder = itemView.findViewById(R.id.navdrawer_item_content_holder)
        }
    }
-
 }

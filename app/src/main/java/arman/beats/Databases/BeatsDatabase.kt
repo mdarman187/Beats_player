@@ -30,7 +30,7 @@ class BeatsDatabase : SQLiteOpenHelper{
     }
 
     constructor(context: Context?, name: String?, factory: SQLiteDatabase.CursorFactory?, version: Int) :
-            super(context, name, factory, version) {}
+            super(context, name, factory, version)
 
     constructor(context: Context?) :
             super(context, Staticated.DB_NAME, null, Staticated.DB_VERSION)
@@ -83,11 +83,13 @@ class BeatsDatabase : SQLiteOpenHelper{
         }
         return storeId != -1090
     }
+
     fun deleteFavorite(_id:Int){
         val db =this.writableDatabase
         db.delete(Staticated.TABLE_NAME,Staticated.COLUMN_ID + "=" + _id,null)
         db.close()
     }
+
     fun checkSize():Int{
         var counter=0
         val db=this.readableDatabase
@@ -102,4 +104,5 @@ class BeatsDatabase : SQLiteOpenHelper{
         }
         return counter
     }
+
 }

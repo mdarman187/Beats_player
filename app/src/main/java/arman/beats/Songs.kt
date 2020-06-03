@@ -12,8 +12,7 @@ class Songs(
         parcel.readString(),
         parcel.readString(),
         parcel.readLong()
-    ) {
-    }
+    )
 
     override fun writeToParcel(dest: Parcel?, flags: Int) {
         dest?.writeLong(songID)
@@ -27,14 +26,12 @@ class Songs(
         return 0
     }
 
-
-
     object Statified{
         var nameComparator:Comparator<Songs> = Comparator<Songs> { song1, song2 ->
             val songOne = song1.songTitle!!.toUpperCase()
             val songTwo = song2.songTitle!!.toUpperCase()
             //forAscending
-            songOne!!.compareTo(songTwo)
+            songOne.compareTo(songTwo)
         }
 
         var dateComparator:Comparator<Songs> = Comparator<Songs> { song1, song2 ->

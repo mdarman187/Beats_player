@@ -7,13 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import arman.beats.R
 import arman.beats.Songs
-import arman.beats.activities.MainActivity
-import arman.beats.fragments.MainScreenFragment
 import arman.beats.fragments.SongPlayingFragment
 
 class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context)
@@ -66,7 +63,7 @@ class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        val itemView= LayoutInflater.from(parent?.context)
+        val itemView = LayoutInflater.from(parent.context)
             .inflate(R.layout.row_custom_mainscreen_adapter, parent, false)
         return MyViewHolder(itemView)
     }
@@ -89,6 +86,5 @@ class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context)
             trackArtist=view.findViewById<TextView>(R.id.trackArtist)
             contentHolder=view.findViewById<RelativeLayout>(R.id.contentRow)
         }
-
     }
 }
