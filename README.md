@@ -77,4 +77,4 @@ I welcome all to put up their modifications and suggestions. All pull requests w
 
 ## Visitors Count
 
-<img align="left" src = "https://profile-counter.glitch.me/covid_app/count.svg" alt ="Loading">
+<img align="left" src = "https://profile-counter.glitch.me/Beats_player/count.svg" alt ="Loading">
