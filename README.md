@@ -20,6 +20,12 @@ collections without any sort of difficulties.
 
 <a href="https://github.com/mdarman187/Beats_player/releases/download/v1.0/beats_app.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 
+## App Screenshots
+
+  All Songs Screen                 |   Player Screen        |  Navigation Drawer
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/mdarman187/Beats_player/blob/master/Screenshot_2020-06-03-19-36-55-449_arman.beats.jpg?raw=true)|![](https://github.com/mdarman187/Beats_player/blob/master/Screenshot_2020-06-03-19-36-46-700_arman.beats.jpg?raw=true)|![](https://github.com/mdarman187/Beats_player/blob/master/Screenshot_2020-06-03-19-36-00-379_arman.beats.jpg?raw=true)
+
 ## Pull Requests
 
 I welcome all to put up their modifications and suggestions. All pull requests will be considered.
