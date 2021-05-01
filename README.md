@@ -18,7 +18,7 @@ collections without any sort of difficulties.
 
 ## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/mdarman187/Beats_player/total?color=green)
 
-<a href="https://github.com/mdarman187/Beats_player/releases/download/v1.0/beatsapp.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://github.com/mdarman187/Beats_player/releases/download/v1.0/beats.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 
 ## App Screenshots
 
