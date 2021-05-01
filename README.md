@@ -70,8 +70,8 @@ I welcome all to put up their modifications and suggestions. All pull requests w
 
 ### 💝 Found this project helpful or learned something new from it?
 
-> Thank me by buying me a cup of :coffee:
->
+Thank me by buying me a cup of :coffee:
+
 > * Pay on [PayPal](https://www.paypal.me/mdarman187/)
 > 
 > * Pay using GooglePay or Paytm on +918539856333
