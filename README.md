@@ -20,15 +20,20 @@ collections without any sort of difficulties.
 
 <a href="https://github.com/mdarman187/Beats_player/releases/download/v1.0/beats.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 
+
 ## App Screenshots
 
   All Songs Screen                 |   Player Screen        |  Navigation Drawer
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/mdarman187/Beats_player/blob/master/Screenshot_2020-06-03-19-36-55-449_arman.beats.jpg?raw=true)|![](https://github.com/mdarman187/Beats_player/blob/master/Screenshot_2020-06-03-19-36-46-700_arman.beats.jpg?raw=true)|![](https://github.com/mdarman187/Beats_player/blob/master/Screenshot_2020-06-03-19-36-00-379_arman.beats.jpg?raw=true)
 
-## Pull Requests
+---
 
-I welcome all to put up their modifications and suggestions. All pull requests will be considered.
+### 🐧 Pull Requests
+
+I welcome all to put up their modifications and suggestions. All pull requests will be considered. <br>
+
+---
 
 ## My Projects
  Project Name        |Stars        
@@ -49,23 +54,25 @@ I welcome all to put up their modifications and suggestions. All pull requests w
 ## Created & Maintained By: [Md Arman](https://github.com/mdarman187)
 
 <a href="https://linkedin.com/in/mdarman187">
-  <img align="left" alt="Arman's Linkdein" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+  <img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="50">
 </a>
 <a href="https://twitter.com/mdarman_187">
-  <img align="left" alt="Arman's Twitter" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+  <img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="50">
 </a>
 <a href="https://t.me/mdarman187">
-  <img align="left" alt="Arman's Telegram" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg" />
+  <img src="https://github.com/aritraroy/social-icons/blob/master/telegram-icon.png?raw=true" width="50">
 </a>
 <a href="https://instagram.com/mdarman_187/">
-  <img align="left" alt="Arman's Instagram" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+  <img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="50">
 </a>
 <a href="https://www.facebook.com/mdarman187/">
-  <img align="left" alt="Arman's Facebook" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-</a><br><br>
+  <img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="50">
+</a><br>
 
-> Found this project helpful or learned something new from it.
-> 
+---
+
+### 💝 Found this project helpful or learned something new from it?
+
 > Thank me by buying me a cup of :coffee:
 >
 > * Pay on [PayPal](https://www.paypal.me/mdarman187/)
