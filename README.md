@@ -82,5 +82,3 @@ Thank me by buying me a cup of :coffee:
 ## Visitors Count
 
 <img align="left" src = "https://profile-counter.glitch.me/Beats_player/count.svg" alt ="Loading">
-
----
